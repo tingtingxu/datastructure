@@ -23,7 +23,8 @@ public class ListNode {
             strBuilder.append(printNode.val + " ");
             printNode = printNode.next;
         }
-        //write this outside the loop because don't want a space after the last node in the list.
+        /*write this outside the loop because 
+        don't want a space after the last node in the list.*/
         strBuilder.append(printNode.val);
         return strBuilder.toString();
 
